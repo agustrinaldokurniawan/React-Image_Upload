@@ -13,6 +13,22 @@
   }
 }
 
+.Button :hover {
+  background-color: gray;
+}
+
+.Button :active {
+  background-color: gray;
+  transform: translateY(4px);
+}
+
+.Button {
+  background-color: "white";
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
